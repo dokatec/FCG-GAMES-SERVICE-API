@@ -1,0 +1,12 @@
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\bin\Debug\net9.0\FCG.Games.Domain.deps.json
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\bin\Debug\net9.0\FCG.Games.Domain.dll
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\bin\Debug\net9.0\FCG.Games.Domain.pdb
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.csproj.AssemblyReference.cache
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.AssemblyInfoInputs.cache
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.AssemblyInfo.cs
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.csproj.CoreCompileInputs.cache
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.dll
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\refint\FCG.Games.Domain.dll
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\FCG.Games.Domain.pdb
+C:\dev\repo\fiap\Fase_3\FCG-Games-Service\src\FCG.Games.Domain\obj\Debug\net9.0\ref\FCG.Games.Domain.dll

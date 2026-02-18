@@ -1,0 +1,263 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Infrastructure\\FCG.Games.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Application\\FCG.Games.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Application\\FCG.Games.Application.csproj",
+        "projectName": "FCG.Games.Application",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Application\\FCG.Games.Application.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/SEU_USUARIO_GITHUB/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj",
+        "projectName": "FCG.Games.Domain",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/SEU_USUARIO_GITHUB/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Elastic.Clients.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Infrastructure\\FCG.Games.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Infrastructure\\FCG.Games.Infrastructure.csproj",
+        "projectName": "FCG.Games.Infrastructure",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Infrastructure\\FCG.Games.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/SEU_USUARIO_GITHUB/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Application\\FCG.Games.Application.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Application\\FCG.Games.Application.csproj"
+              },
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Games-Service\\src\\FCG.Games.Domain\\FCG.Games.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Elastic.Clients.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

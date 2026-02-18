@@ -7,7 +7,7 @@ on:
 jobs:
     deploy:
         runs-on: ubuntu-latest
-        # IMPORTANTE: Permissão para ler pacotes do GitHu
+        # IMPORTANTE: Permissão para ler pacotes do GitHub
         permissions:
             contents: read
             packages: read

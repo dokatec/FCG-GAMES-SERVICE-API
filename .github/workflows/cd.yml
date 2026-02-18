@@ -31,4 +31,4 @@ jobs:
                   # Injeta o token automático do GitHub para o Docker usar no 'dotnet restore'
                   build-args: |
                       GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
-                  tags: ${{ secrets.DOCKERHUB_USERNAME }}/fcg-Games-api:latest
+                  tags: ${{ secrets.DOCKERHUB_USERNAME }}/fcg-games-api:latest

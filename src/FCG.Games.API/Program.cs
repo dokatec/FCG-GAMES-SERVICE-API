@@ -169,6 +169,23 @@ using (var scope = app.Services.CreateScope())
 }
 // --- FIM DO BLOCO ---
 
+// Bloco de Inicialização de Infraestrutura (Elasticsearch)
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var searchRepository = services.GetRequiredService<IGameSearchRepository>();
+        Console.WriteLine("🔍 Verificando integridade do índice no Elasticsearch...");
+        await searchRepository.InitIndexAsync();
+    }
+    catch (Exception ex)
+    {
+        // Log de erro sênior: avisa o que houve sem derrubar a API imediatamente
+        Console.WriteLine($"⚠️ Falha ao inicializar o índice do Elastic: {ex.Message}");
+    }
+}
+
 app.UseMiddleware<ErrorHandlingMiddleware>();
 
 if (app.Environment.IsDevelopment())

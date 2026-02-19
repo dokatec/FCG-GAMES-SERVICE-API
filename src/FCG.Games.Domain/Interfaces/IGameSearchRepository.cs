@@ -4,6 +4,7 @@ namespace FCG.Games.Domain.Interfaces;
 
 public interface IGameSearchRepository
 {
+    Task InitIndexAsync();
     Task IndexGameAsync(Game game);
     Task<IEnumerable<Game>> SearchAsync();
     Task<IEnumerable<Game>> SearchByTitleAsync(string title);

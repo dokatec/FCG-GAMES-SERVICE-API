@@ -128,27 +128,27 @@ public class GamesController : ControllerBase
     }
 
 
-    // [HttpPost("sync")]
-    // public async Task<IActionResult> SyncElasticsearch()
-    // {
-    //     try
-    //     {
-    //         var games = await _gameService.GetAllAsync();
-    //         if (games == null || !games.Any())
-    //             return NotFound("Nenhum jogo encontrado para sincronizar.");
+    [HttpPost("sync")]
+    public async Task<IActionResult> SyncElasticsearch()
+    {
+        try
+        {
+            var games = await _gameService.GetAllAsync();
+            if (games == null || !games.Any())
+                return NotFound("Nenhum jogo encontrado para sincronizar.");
 
-    //         foreach (var game in games)
-    //         {
-    //             await _searchRepository.IndexGameAsync(game);
-    //         }
+            foreach (var game in games)
+            {
+                await _searchRepository.IndexGameAsync(game);
+            }
 
-    //         return Ok(new { message = $"{games.Count()} jogos sincronizados com sucesso no Elasticsearch!" });
-    //     }
-    //     catch (Exception ex)
-    //     {
-    //         return StatusCode(500, $"Erro na sincronização: {ex.Message}");
-    //     }
-    // }
+            return Ok(new { message = $"{games.Count()} jogos sincronizados com sucesso no Elasticsearch!" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro na sincronização: {ex.Message}");
+        }
+    }
 }
 
 // DTO necessário para o Request de Compra

@@ -103,5 +103,32 @@ public class ElasticGameRepository : IGameSearchRepository
         return response.IsValidResponse ? response.Documents : Enumerable.Empty<Game>();
     }
 
+    public async Task InitIndexAsync()
+    {
+        var existsResponse = await _client.Indices.ExistsAsync(IndexName);
+
+        if (!existsResponse.Exists)
+        {
+            var createResponse = await _client.Indices.CreateAsync(IndexName, c => c
+                .Mappings(m => m
+                    .Properties<Game>(p => p
+                      .Keyword(n => n.Id)
+                    .Text(n => n.Title, t => t.Analyzer("portuguese"))
+                    .Text(n => n.Description, t => t.Analyzer("portuguese"))
+                    .Keyword(n => n.Category)
+                    // Substituindo .Number por tipos específicos:
+                    .DoubleNumber(n => n.Price)
+                    .IntegerNumber(n => n.SalesCount)
+                    )
+                )
+            );
+
+            if (createResponse.IsValidResponse)
+                Console.WriteLine($"🚀 Índice '{IndexName}' criado com sucesso na AWS/Local.");
+            else
+                Console.WriteLine($"❌ Erro ao criar índice: {createResponse.DebugInformation}");
+        }
+    }
+
 
 }

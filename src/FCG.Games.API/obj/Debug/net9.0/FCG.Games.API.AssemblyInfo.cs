@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FCG.Games.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83fbb15c938127f1a317b19a3e41fb87baaffb97")]
 [assembly: System.Reflection.AssemblyProductAttribute("FCG.Games.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FCG.Games.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

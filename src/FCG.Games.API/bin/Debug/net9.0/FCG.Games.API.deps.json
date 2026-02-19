@@ -69,6 +69,14 @@
           }
         }
       },
+      "FCG.Shared/1.0.0": {
+        "runtime": {
+          "lib/net9.0/FCG.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -1005,14 +1013,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "FCG.Shared/1.0.0": {
-        "runtime": {
-          "FCG.Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -1049,6 +1049,13 @@
       "sha512": "sha512-orChsQi1Ceho/NyIylNOn6y4vuGcsbCfMZnCueNN0fzqYEGQmQdPfcVmsR5+3fwpXTgxCdjTUVmqOwvHpCSB+Q==",
       "path": "elasticsearch.net/7.17.5",
       "hashPath": "elasticsearch.net.7.17.5.nupkg.sha512"
+    },
+    "FCG.Shared/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-36WBwXlmTZT/6h2uAE+sLtmMdOq3eSpydHMwF2D0KYXVQXazfa2GXgLAKOmnf83up0/nBHfOJQMVJ0uv9xbq0g==",
+      "path": "fcg.shared/1.0.0",
+      "hashPath": "fcg.shared.1.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1642,11 +1649,6 @@
       "sha512": ""
     },
     "FCG.Games.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FCG.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
